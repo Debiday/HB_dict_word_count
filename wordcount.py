@@ -6,7 +6,6 @@ def make_letter_counts_dict(file):
         for line in f:
             line = line.strip().split(" ")
             for words in line:
-                #print(words)
                 if words not in dictionary:
                     dictionary[words] = 1
                 else:
